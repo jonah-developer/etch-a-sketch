@@ -8,3 +8,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.hover {
+    background-color: black;
+}
