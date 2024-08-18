@@ -25,7 +25,7 @@ changeGridButton.addEventListener("click", () => {
         square.style.width = `${squareDimension}px`;
         square.style.height = `${squareDimension}px`;
         square.addEventListener("mouseover", () => {
-            square.classList.add("hover");
+            square.style.backgroundColor = `rgb(${Math.random() * 256}, ${Math.random() * 256}, ${Math.random() * 256})`;
         });
         container.appendChild(square);
     }
